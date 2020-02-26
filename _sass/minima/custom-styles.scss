@@ -1,2 +1,7 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+.menu-title h1 {
+  font-size(2.625);
+  font-weight: bold;
+letter-spacing: -1px;
+  line-height: 1.15;
