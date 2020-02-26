@@ -5,9 +5,6 @@ permalink: /about/
 ---
 
 
-![portfolio](https://user-images.githubusercontent.com/60729752/74127346-bdc83a80-4c1d-11ea-9eca-be5db7534c8c.png)
-
-
 **안녕하세요**  
 **UX디자이너 장정희입니다**  
 
