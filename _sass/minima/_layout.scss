@@ -206,7 +206,7 @@
 }
 
 .page-heading {
-  @include relative-font-size(2);
+  @include relative-font-size(1);
 }
 
 .post-list-heading {
@@ -291,7 +291,7 @@
   display: table;
   margin: 0 auto;
   li {
-    float: center;
+    float: left;
     margin: 5px 10px 5px 0;
     &:last-of-type { margin-right: 0 }
     a {
