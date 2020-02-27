@@ -41,7 +41,7 @@
   border: 1px solid $brand-key-bg-color-light;
   border-radius: 5px;
   text-align: right;
-}
+
 	
   .nav-trigger {
       display: none;
@@ -97,11 +97,7 @@
       margin-right: 0;
     }
     margin-left: 20px;
-	/*&:hover {
-   		 color: $brand-key-color;
-  		 text-decoration: none;
-    }*/
-}
+  }
 
   @media screen and (min-width: $on-medium) {
     position: static;
