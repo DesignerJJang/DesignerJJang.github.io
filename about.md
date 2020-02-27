@@ -29,7 +29,7 @@ Agile Project
 
 **UX Designer(Intern), [Pantech](https://ko.wikipedia.org/wiki/%ED%8C%AC%ED%83%9D)**  
 ##### Dec 2011 - Nov 2012  
-SKY스마트폰 공통 UI디자인
+SKY스마트폰 공통 UI디자인  
 베가레이서2 심플모드 UX/UI디자인
  
 <br><br><br>
