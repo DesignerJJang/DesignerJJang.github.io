@@ -53,12 +53,13 @@
     line-height: 0;
     padding-top: 10px;
     text-align: center;
-	border-radius: 50px;
-	background-color: $brand-key-color;
+//	background-color: $brand-key-color;
 
     > svg path {
-      //fill: $brand-color-dark;
-		fill: #FFFFFF;
+		fill: #111;
+		   &:hover {
+        fill: $brand-key-color;
+	}
     }
   }
 
