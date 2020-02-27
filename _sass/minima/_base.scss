@@ -117,7 +117,7 @@ a {
 
   &:hover {
     color: $text-color;
-    text-decoration: none; font-weight:bold
+    text-decoration: underline;
   }
 
   .social-media-list &:hover {
