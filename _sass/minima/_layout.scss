@@ -41,7 +41,8 @@
   border: 1px solid $brand-key-color;
   //border-radius: 5px;
   text-align: right;
-
+}
+	
   .nav-trigger {
       display: none;
   }
@@ -63,8 +64,8 @@
 			   > svg path {
 					fill: $brand-key-color;
 	
-    }
-	}  
+							}
+					}  
   }
 
   label[for="nav-trigger"] {
@@ -100,7 +101,7 @@
 	&:hover {
    		 color: $brand-key-color;
   		 text-decoration: none;
-  }
+    }
 
   @media screen and (min-width: $on-medium) {
     position: static;
