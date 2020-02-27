@@ -53,14 +53,18 @@
     line-height: 0;
     padding-top: 10px;
     text-align: center;
-//	background-color: $brand-key-color;
+	background-color: $background-color;
 
     > svg path {
-		fill: #111;
-		   &:hover {
-        fill: $brand-key-color;
-	}
+		fill: $text-color;
+	
     }
+		   &:hover {
+			   > svg path {
+					fill: $brand-key-color;
+	
+    }
+	}  
   }
 
   label[for="nav-trigger"] {
@@ -133,8 +137,8 @@
  */
 .site-footer {
   //border-top: 1px solid $brand-color-light;
-  padding: $spacing-unit 0;
-  background-color: $brand-key-bg-color-light;
+  padding: $spacing-unit / 2;
+  background-color: $brand-key-bg-color;
 }
 
 .footer-heading {
@@ -169,7 +173,7 @@
 .footer-col-wrapper,
 .social-links {
   @include relative-font-size(0.9375);
-  color: $brand-color;
+  color: $background-color;
 }
 
 
