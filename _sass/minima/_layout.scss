@@ -59,12 +59,12 @@
 		fill: $text-color;
 	
     }
-		   &:hover {
+		/*   &:hover {
 			   > svg path {
 					fill: $brand-key-color;
 	
 							}
-					}  
+					}  */
   }
 
   label[for="nav-trigger"] {
@@ -97,10 +97,10 @@
       margin-right: 0;
     }
     margin-left: 20px;
-	&:hover {
+	/*&:hover {
    		 color: $brand-key-color;
   		 text-decoration: none;
-    }
+    }*/
 
   @media screen and (min-width: $on-medium) {
     position: static;
