@@ -17,18 +17,17 @@
           {% if site.author.name -%}
             <li class="p-name">{{ site.author.name | escape }}</li>
           {% endif -%}
-          {% if site.author.email -%}
+    <!--  {% if site.author.email -%}
             <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
+          {%- endif %}-->
         </ul>
       {%- endif %}
       </div> 
 		<div class="footer-col">
 			<div class="social-links">
-				<div align="right">
-									
+								
 				 {%- include social.html -%}
-				</div>
+				
 			</div>
 		</div>
     <!--  <div class="footer-col">
