@@ -181,7 +181,7 @@
   }
 
   .footer-col {
-    width: calc(100% - (#{$spacing-unit} / 2));
+    width: calc(50% - (#{$spacing-unit} / 2));
     padding: 0 ($spacing-unit / 2);
 
     &:first-child {
