@@ -32,9 +32,9 @@
   position: absolute;
   top: 9px;
   right: $spacing-unit / 2;
-  background-color: $background-color;
-  border: 1px solid $brand-color-light;
-  border-radius: 5px;
+  background-color: $brand-key-color;
+  //border: 1px solid $brand-color-light;
+  //border-radius: 5px;
   text-align: right;
 
   .nav-trigger {
@@ -48,6 +48,7 @@
     line-height: 0;
     padding-top: 10px;
     text-align: center;
+	border-radius: 50px;
 	background-color: $brand-key-color;
 
     > svg path {
