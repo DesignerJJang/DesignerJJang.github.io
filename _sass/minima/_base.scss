@@ -131,7 +131,7 @@ a {
 
   &:hover {
     color: $brand-key-color;
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   .social-media-list &:hover {
@@ -141,6 +141,10 @@ a {
       text-decoration: underline;
     }
   }
+	.u-email {
+		color: $background-color;
+		
+	}
 }
 
 
