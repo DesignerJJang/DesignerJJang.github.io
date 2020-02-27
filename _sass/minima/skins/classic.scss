@@ -4,8 +4,10 @@ $brand-color:           #828282 !default;
 $brand-color-light:     lighten($brand-color, 40%) !default;
 $brand-color-dark:      darken($brand-color, 25%) !default;
 
-$brand-key-color:       #D70985 !default;
-$brand-key-color-light: #F9EEFC !default;
+$brand-key-color:       #d20068 !default;
+$brand-key-color-light: lighten($brand-key-color, 70%) !default;
+$brand-key-bg-color:    #2f313d; !default;
+$brand-key-bg-color-light: lighten($brand-key-bg-color, 70%) !default;
 
 
 $text-color:            #111 !default;
