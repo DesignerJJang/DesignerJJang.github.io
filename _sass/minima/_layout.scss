@@ -177,7 +177,7 @@
   width: calc(100% - (#{$spacing-unit} / 2));
 }
 
-@media screen and (min-width: $on-large) {
+/*@media screen and (min-width: $on-large) {
   .footer-col-1 {
     width: calc(35% - (#{$spacing-unit} / 2));
   }
@@ -197,8 +197,7 @@
   }
 	
   .footer-col {
-//	width: calc(100% - (#{$spacing-unit} / 2));
-	width: calc(50% - (#{$spacing-unit} / 2));
+	width: calc(100% - (#{$spacing-unit} / 2));
 	padding: 0 ($spacing-unit / 2);
 
 	&:first-child {
@@ -212,7 +211,7 @@
 	}
   }
 
-}
+}*/
 
 
 
