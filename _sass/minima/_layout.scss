@@ -124,7 +124,7 @@
 .site-footer {
   border-top: 1px solid $brand-color-light;
   padding: $spacing-unit 0;
-  background-color: darken($brand-color-light, 5%);
+  background-color: darken($brand-color-light, 3%);
 }
 
 .footer-heading {
@@ -147,11 +147,11 @@
 .social-links {
   @include relative-font-size(0.9375);
   color: $brand-color;
-	float: right;
 }
 
 .footer-col {
-  margin-bottom: $spacing-unit / 2;
+ // margin-bottom: $spacing-unit / 2;
+  margin-bottom: 0;
 }
 
 .footer-col-1,
