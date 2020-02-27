@@ -5,14 +5,14 @@ $brand-color-light:     lighten($brand-color, 40%) !default;
 $brand-color-dark:      darken($brand-color, 25%) !default;
 
 $brand-key-color:       #D70985 !default;
-$brand-key-color-light: lighten($brand-key-color, 90%) !default;
+$brand-key-color-light: #F9EEFC !default;
 
 
 $text-color:            #111 !default;
 $background-color:      #fdfdfd !default;
 $code-background-color: #eef !default;
 
-$link-base-color:       #C832FB !default;
+$link-base-color:       #111 !default;
 $link-visited-color:    darken($link-base-color, 50%) !default;
 
 $table-text-color:      lighten($text-color, 18%) !default;
