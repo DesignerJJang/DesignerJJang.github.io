@@ -136,13 +136,25 @@
   padding: 5px 5px 2px 0
 }
 
-.contact-list,
+/*.contact-list,
 .social-media-list {
   list-style: none;
   margin-left: 0;
 
-}
+}*/
 
+
+.contact-list {
+  list-style: none;
+  margin-left: 0;
+	
+}
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+  float: right;
+
+}
 
 .footer-col-wrapper,
 .social-links {
