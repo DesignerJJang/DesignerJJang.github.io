@@ -22,10 +22,15 @@
     padding-right: 45px;
   }
 
-  &,
+  
   &:visited {
     color: $brand-color-dark;
   }
+	
+   &:hover {
+    color: $brand-key-color;
+    text-decoration: none;
+	}
 }
 
 .site-nav {
