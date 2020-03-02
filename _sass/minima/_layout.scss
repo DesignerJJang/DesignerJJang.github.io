@@ -23,9 +23,9 @@
   }
 
   
-  /*&:visited {
-    color: $brand-color-dark;
-  }*/
+  &:visited {
+    color: $text-color;
+  }
 	
    &:hover {
     color: $brand-key-color;
