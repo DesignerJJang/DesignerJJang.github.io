@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-  border-top: 3px solid $brand-key-color;
+  border-top: 3px solid $brand-key-bg-color-light;
   border-bottom: 1px solid $brand-key-bg-color-light;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
@@ -58,7 +58,7 @@
     > svg path {
 		fill: $text-color;
 		   &:hover {
-  			  color: $brand-key-color;
+  			  fill: $brand-key-color;
 					}
 	
    				}
@@ -93,6 +93,11 @@
     &:not(:last-child) {
       margin-right: 0;
     }
+	  
+	     &:hover {
+    color: $brand-key-color;
+	}
+	  
     margin-left: 20px;
   }
 
