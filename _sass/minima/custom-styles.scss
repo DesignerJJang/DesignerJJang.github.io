@@ -1,2 +1,25 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+
+@media screen and (min-width: $on-large) {
+.tit_intro{position: relative;margin-bottom:20px;padding:0 20px;z-index:3}/* 제목입니다. */
+.tit_intro:before {position: absolute;top:50%;left:0;right:0;bottom:0;width:100%;border-top:2px solid #eee;content:"";margin:0 auto;z-index:-1}/* 제목 꾸며주는 가로선 입니다.*/
+.tit_intro span {background:#fff;padding: 0 15px;color:#666;}
+
+.img_category{display:none;text-align:center;overflow:hidden;z-index:1}
+.img_category .img{position:relative;float:left;width:50%;padding-bottom: 30.9%;background-size:cover}
+.img_category .img_cover{position:absolute;height: 100%;width: 100%;background-color: rgba(0, 0, 0, 0.3)}
+.img_category .img .content{position:absolute;width:100px;top:50%;left:50%; transform: translate(-50%, -50%); color: #fff; padding:30px; border:5px solid #fff;z-index:2}
+	
+}
+
+
+@media screen and (min-width: $on-medium) {
+	.tit_intro span{font-weight:bold}
+.img_category{margin:10px 0;}
+.img_category .img{float:none;width:100%;padding-bottom: 61.8%;margin-bottom:5px}
+.img_category .img .content{padding:5px 0 5px;border:none}
+.img_category .img .content h1:after{display:block; content:''; width:100%; margin: 0px auto; border: 2px solid #fff;}
+	
+}
