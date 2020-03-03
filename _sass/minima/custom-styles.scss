@@ -14,13 +14,11 @@ p.home-title {
 		
 	@media screen and (min-width: $on-medium) {
   @include relative-font-size(2.625);
-		
-  }
+		}
 		
   }
 	
 	
-}
 
 p.page-subtitle {
 	@include relative-font-size(1);
