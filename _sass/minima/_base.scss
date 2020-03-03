@@ -64,7 +64,7 @@ ul {
 
 hr { //줄
   margin-top: $spacing-unit / 2;
-  margin-bottom: 0;
+  margin-bottom: $spacing-unit / 4;
   background-color: $brand-key-color;
         border: 0px;
         height: 1px;
