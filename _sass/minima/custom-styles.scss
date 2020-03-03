@@ -16,15 +16,16 @@ p.page-subtitle {
 }
 
 
-.container-padding {
+.bgimg {
 	width:100%; 
-//	text-align:center;
-//	margin:0px auto;
+	height:auto;
+	background: url('https://user-images.githubusercontent.com/60729752/75769344-5b300d80-5d89-11ea-8867-4f61e44109ef.png') ;
+	background-position: center;
+	background-size: cover;
+
 }
 
-.inner {
-   padding-top: calc(100% / 1 * 2);
-}
+
 
 .inner-text {
 	position: absolute;
