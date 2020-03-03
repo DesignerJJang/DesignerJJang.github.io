@@ -51,15 +51,12 @@ ol, dl, figure,
 }
 
 ul {
-  margin-bottom: 0;
-	float: left; //footer
+  margin-bottom: $spacing-unit / 3;
+//	float: left; //footer
 }
 
 
-ul > li class="p-name" {
-  margin-bottom: 0;
-	float: left; //footer
-}
+
 
 
 hr { //줄
