@@ -177,7 +177,7 @@
 .footer-col-wrapper,
 .social-links {
   @include relative-font-size(0.9375);
-  color: $background-color;
+  color: $brand-key-bg-color-light;
 }
 
 
@@ -276,7 +276,7 @@
  */
 .post-header {
   margin-bottom: $spacing-unit;
-  text-align: center;
+//  text-align: center;
 }
 
 .post-title h2 {
