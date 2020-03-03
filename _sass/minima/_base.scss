@@ -56,9 +56,9 @@ ul {
 }
 
 
-hr {
-  margin-top: $spacing-unit;
-  margin-bottom: $spacing-unit;
+hr { //줄
+  margin-top: $spacing-unit / 2;
+  margin-bottom: 0;
 }
 
 /**
