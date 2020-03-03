@@ -4,5 +4,5 @@ layout: category
 
 title: Blog
 
-subtitle: 이것저것 기록하기
+subtitle: 기억하고 싶은 것을 기록합니다
 ---

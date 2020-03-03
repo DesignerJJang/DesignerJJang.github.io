@@ -4,5 +4,5 @@ layout: category
 
 title: UX
 
-subtitle: UX디자이너의 이야기
+subtitle: UX디자인에 대한 이야기를 합니다
 ---
