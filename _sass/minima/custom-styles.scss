@@ -10,7 +10,7 @@ p.home-title {
 	
 
 		
-	@media screen and (min-width: $large) {
+	@media screen and (min-width: $on-large) {
   @include relative-font-size(4);
 		}
 		
@@ -28,13 +28,13 @@ p.page-subtitle {
 .bgimg {
 	width: 100%; 
 	height: auto;
-	background: url(https://user-images.githubusercontent.com/60729752/75795158-436e7e80-5db5-11ea-8e39-eecfcc3a3b05.png);
-	background-position: center;
+	background: url(https://user-images.githubusercontent.com/60729752/75799275-3d7b9c00-5dbb-11ea-8f69-dfd6ee354475.png);
+	background-position: center center;
 	background-size: cover;		
-	padding-top: 30px;
+	padding-top: 100px;
+	padding-down: 100px;
 
 }
-
 
 
 .inner-text {
