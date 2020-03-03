@@ -279,7 +279,7 @@
 //  text-align: center;
 }
 
-.post-title h2 {
+.post-title h1 {
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1.15;
