@@ -16,15 +16,18 @@ p.page-subtitle {
 }
 
 
-.background {
+.container-padding {
 	width:100%; 
-	text-align:center;
-	margin:0px auto;
+//	text-align:center;
+//	margin:0px auto;
 }
 
-.background img{
-	width:100%; 
-	height: auto;
+.inner {
+   padding-top: calc(100% / 1 * 2);
+}
+
+.inner-text {
+	position: absolute;
 }
 
 /*
