@@ -58,7 +58,6 @@ ul {
 
 
 
-
 hr { //줄
   margin-top: $spacing-unit / 2;
   margin-bottom: 0;
@@ -118,9 +117,9 @@ li {
 /**
  * Headings
  */
-//h1, h2, h3, h4, h5, h6 {
-//  font-weight: 600;
-//}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
 
 
 
