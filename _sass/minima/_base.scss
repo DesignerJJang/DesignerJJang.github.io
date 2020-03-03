@@ -56,6 +56,12 @@ ul {
 }
 
 
+ul > li class="p-name" {
+  margin-bottom: 0;
+	float: left; //footer
+}
+
+
 hr { //줄
   margin-top: $spacing-unit / 2;
   margin-bottom: 0;
