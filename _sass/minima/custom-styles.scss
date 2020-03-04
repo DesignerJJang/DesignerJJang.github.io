@@ -42,6 +42,7 @@ p.page-subtitle {
     grid-gap: 1px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: repeat(2, 140px);
+	padding-top: 10px;
 }
 
 .container > div > img {
