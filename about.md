@@ -24,7 +24,7 @@ subtitle: 이런 것을 좋아하고 이런 일을 합니다
 **UX Team Leader, [gentlepie](https://www.gentlepie.com/)**  
 ###### Jan 2019 - Present 
 AI챗봇, AI스피커의 UX/UI디자인  
-CUI(Conversation User Interface)디자인 UX프로세스 정립  
+CUI(Conversation User Interface)디자인 UX프로세스    
 <br><br>
 
 **UX Designer, [Samsung SDS](https://www.samsungsds.com/)**  
