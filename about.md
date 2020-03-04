@@ -2,10 +2,8 @@
 layout: about
 title: About
 permalink: /about/
-subtitle: 이런 일을 합니다
+subtitle: 이런 것을 좋아하고 이런 일을 합니다
 ---
-안녕하세요  
-UX디자이너 장정희입니다 
 
 숨은 문제를 찾아 해결하는 것이 좋아 UX를 시작했고  
 지금은 *Conversation UX*라는 새로운 분야의 경험을 쌓아가고 있습니다  
