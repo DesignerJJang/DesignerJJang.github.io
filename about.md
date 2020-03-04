@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-subtitle: 이런 사람입니다
+subtitle: 이런 일을 합니다
 ---
 안녕하세요  
 UX디자이너 장정희입니다 
