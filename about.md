@@ -4,14 +4,12 @@ title: About
 permalink: /about/
 subtitle: 이런 것을 좋아하고 이런 일을 합니다
 ---
-
 <br>
-
 **Travel, Music, Movie, Photo**  
 
 
  
-<br><br><br>
+<br><br><br><br><br>
 
 *Work experience*
 
@@ -43,7 +41,7 @@ SKY스마트폰 공통 UI디자인
  
 
 
-<br><br><br>
+<br><br><br><br><br>
 
 
 *Contact*  
