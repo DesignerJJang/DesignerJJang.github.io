@@ -140,7 +140,8 @@
  */
 .site-footer {
   //border-top: 1px solid $brand-color-light;
-  padding: $spacing-unit / 2;
+  padding-top: $spacing-unit / 2;
+	padding-down: $spacing-unit / 2;
   background-color: $brand-key-bg-color;
 }
 
