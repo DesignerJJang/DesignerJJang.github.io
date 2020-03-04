@@ -5,13 +5,23 @@ permalink: /about/
 subtitle: 이런 것을 좋아하고 이런 일을 합니다
 ---
 
-숨은 문제를 찾아 해결하는 것이 좋아 UX를 시작했고  
-지금은 *Conversation UX*라는 새로운 분야의 경험을 쌓아가고 있습니다  
-<br><br><br><br><br><br>
+<br>
+
+**Travel, Music, Movie, Photo**  
+
+
+ 
+<br><br><br>
 
 *Work experience*
 
 ***  
+
+숨은 문제를 찾아 해결하는 것이 좋아 UX를 시작했고  
+지금은 *Conversation UX*라는 새로운 분야의 경험을 쌓아가고 있습니다  
+
+
+<br><br>
 
 **UX Team Leader, [gentlepie](https://www.gentlepie.com/)**  
 ###### Jan 2019 - Present 
@@ -31,16 +41,7 @@ Agile Project
 SKY스마트폰 공통 UI디자인  
 베가레이서2 심플모드 UX/UI디자인
  
-<br><br><br>
 
-*Like*  
-
-***  
-
-**Travel, Photo, Music, Movie**  
-
-
-![about](https://user-images.githubusercontent.com/60729752/74218663-f0d9ff00-4ced-11ea-9adc-309407f37785.png)
 
 <br><br><br>
 
