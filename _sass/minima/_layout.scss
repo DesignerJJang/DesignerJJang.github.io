@@ -276,6 +276,12 @@
 .post-link {
   display: block;
   @include relative-font-size(1.25);
+	color: $text-color;
+	
+	 &:hover {
+    color: $text-color;
+	text-decoration: underline;
+	}
 }
 
 
