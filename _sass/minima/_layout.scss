@@ -19,10 +19,7 @@
   float: left;
 	color: $brand-key-color;
 	text-decoration: none;
-		&:hover {
- 			   color: $brand-key-color-light;
-			   text-decoration: none;
-  				}
+
 		
 
   @include media-query($on-palm) {
