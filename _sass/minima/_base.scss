@@ -135,13 +135,9 @@ a {
   color: $link-base-color;
   text-decoration: none;
 
-  &:active {
-    color: $brand-key-color;
-  }
-
   &:hover {
     color: $brand-key-color;
-    text-decoration: underline;
+    text-decoration: none;
   }
 	
 
