@@ -51,6 +51,12 @@ p.page-subtitle {
     object-fit: cover;
 }
 
+.full-page-content {
+  padding: 0;
+  flex: 1 0 auto;
+}
+
+
 /*
 @media screen and (min-width: $on-large) {
 .tit_intro{position: relative;margin-bottom:20px;padding:0 20px;z-index:3}/* 제목입니다. 
