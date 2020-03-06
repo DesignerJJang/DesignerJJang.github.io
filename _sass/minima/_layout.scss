@@ -4,7 +4,7 @@
 .site-header {
   //border-top: 5px solid $brand-key-bg-color;
   //border-bottom: 1.5px solid $brand-key-bg-color-light;
-  min-height: $spacing-unit * 1.865;
+  min-height: $spacing-unit * 2.5;
   line-height: $base-line-height * $base-font-size * 2.25;
 	background-color: #0F4C81;
 
@@ -31,10 +31,10 @@
     color: $text-color;
   }*/
 	
-  /* &:hover {
-    color: $brand-key-color;
+  &:hover {
+    color: $white;
     text-decoration: none;
-	}*/
+	}
 }
 
 .site-nav {
@@ -147,7 +147,7 @@
   //border-top: 1px solid $brand-color-light;
   padding-top: $spacing-unit / 2;
 	padding-bottom: $spacing-unit / 2;
-  background-color: $brand-key-bg-color;
+  background-color: $brand-key-bg-color-dark;
 }
 
 .footer-heading {
