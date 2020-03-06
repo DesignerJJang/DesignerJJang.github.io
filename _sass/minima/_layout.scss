@@ -2,10 +2,11 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $brand-key-bg-color;
-  border-bottom: 1.5px solid $brand-key-bg-color-light;
+  //border-top: 5px solid $brand-key-bg-color;
+  //border-bottom: 1.5px solid $brand-key-bg-color-light;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
+	background-color: #0F4C81;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -17,7 +18,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-	color: $brand-key-color;
+	color: fff;
 	text-decoration: none;
 
 		
@@ -40,8 +41,8 @@
   position: absolute;
   top: 9px;
   right: $spacing-unit / 2;
-  background-color: $background-color;
-  border: 1px solid $brand-key-bg-color-light;
+  background-color: $brand-key-color;
+  border: 1px solid $fff;
   border-radius: 5px;
   text-align: right;
 
@@ -59,12 +60,12 @@
     text-align: center;
 
     > svg path {
-		fill: $text-color;
+		fill: $fff;
    				}
 	  
 	&:hover {
 		> svg path {
-		fill: $brand-key-color;
+		fill: $brand-key-bg-color-dark;
    				}
 	  		}
   }
@@ -89,7 +90,7 @@
   }
 
   .page-link {
-	color: $text-color;
+	color: $fff;
     line-height: $base-line-height;
     display: block;
     padding: 5px 10px;
@@ -100,7 +101,7 @@
     }
 	  
 	     &:hover {
-    color: $brand-key-color;
+    color: $brand-key-bg-color-dark;
 	text-decoration: none;
 	}
 	  
