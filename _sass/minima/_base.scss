@@ -108,10 +108,7 @@ figcaption {
 ul, ol {
   margin-left: $spacing-unit;
 	
-	>li {
-		padding: 20px 0 20px; //0312 리스트 간격
-		border-bottom: 1px solid $brand-key-bg-color-dark; //0312 리스트 하단 줄
-		}
+
 }
 
 li {
