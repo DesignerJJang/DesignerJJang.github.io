@@ -110,6 +110,10 @@ ul, ol {
 }
 
 li {
+	padding:20px 0 20px; //0312 리스트 간격
+border-bottom:1px solid $brand-bg-color-light; //0312 리스트 하단 줄
+	
+	
   > ul,
   > ol {
     margin-bottom: 10px;
