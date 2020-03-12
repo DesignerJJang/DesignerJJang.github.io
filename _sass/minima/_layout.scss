@@ -291,8 +291,10 @@
  * Posts
  */
 .post-header {
-  margin-bottom: $spacing-unit;
-//  text-align: center;
+  margin-bottom: $spacing-unit * 2;
+  margin-top: $spacing-unit * 2;
+  border-bottom: $brand-key-bg-color-dark;	
+  text-align: center;
 }
 
 .post-title h1 {
