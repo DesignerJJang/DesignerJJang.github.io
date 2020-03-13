@@ -56,6 +56,15 @@ p.post-title {
 }
 
 
+.page_top {
+  margin-bottom: $spacing-unit * 2;
+  padding: 0;
+  display: block;
+  border-bottom: 3px solid $brand-key-bg-color-dark; //0312 리스트 하단 줄
+}
+
+
+
 .bgimg {
 	width: 100%; 
 	height: auto;
