@@ -21,8 +21,6 @@ p.home-title {
 
 p.page-subtitle {
 	@include relative-font-size(1);
-	font-family: "Do Hyeon", serif;	
-	
    font-weight: 400;
    color: $brand-key-color;
 }
