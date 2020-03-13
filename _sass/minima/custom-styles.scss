@@ -4,8 +4,9 @@
 
 .home {
   max-width: calc(#{$content-width} - (#{$spacing-unit}));
-
+  margin: 0 auto;
   @extend %clearfix;
+
 
   @media screen and (min-width: $on-large) {
    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
