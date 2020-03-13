@@ -30,11 +30,12 @@ layout: default
     {%- endif -%}
 	
 <ul class="post-list">
-  
   {% assign category = page.category | default: page.title %}
   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
   {% for post in site.categories[category] %}
       <li>
+		  	<div class="post-title_has_image">  
+
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h4>
           <a class="post-link" href="{{ post.url | relative_url }}">
@@ -44,9 +45,11 @@ layout: default
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
+			</div>
+		  
       </li>
   {% endfor %}
-  
+	  
 </ul>
 	
 	
