@@ -35,13 +35,12 @@ layout: default
   {% for post in site.categories[category] %}
       <li>
 		<div class="post-title_has_image">  
-
-
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h4>
-          <a class="post-link" href="{{ post.url | relative_url }}">
+		        
+        <h4> 
+			<a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }} </a>
         </h4>
+		<span class="post-meta">{{ post.date | date: date_format }}</span>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
