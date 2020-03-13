@@ -38,7 +38,7 @@ p.page-subtitle {
 
 p.post-title {
   font-family: "Noto Serif KR", serif;	 
-  @include relative-font-size(2.625);		
+  @include relative-font-size(2);		
   letter-spacing: -1px;
   line-height: 1.15;
   font-weight: 300;
@@ -58,7 +58,7 @@ p.post-title {
 
 .page_top {
   margin: 0;
-  padding-bottom: $spacing-unit * 2;
+  padding-bottom: $spacing-unit(2);
   display: block;
   border-bottom: 3px solid $brand-key-bg-color-dark; //0312 리스트 하단 줄
 }
