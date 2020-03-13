@@ -301,7 +301,7 @@
 .post-title h1 {
   @include relative-font-size(2.625);	
 
-	base-font-family: "Noto Serif KR", serif;//타이틀 변경
+	font-family: "Noto Serif KR", serif;//타이틀 변경
 	
   letter-spacing: -1px;
   line-height: 1.15;
@@ -313,10 +313,7 @@
 }
 
 .post-content h1 {
-  @include relative-font-size(2.625);
-	
-	base-font-family: "Noto Sans KR", sans-serif;//타이틀 변경
-	
+  @include relative-font-size(2.625);	
   letter-spacing: -1px;
   line-height: 1.15;
 
