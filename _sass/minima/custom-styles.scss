@@ -29,6 +29,12 @@ p.page-title { //페이지 타이틀
 }
 
 
+p.page-subtitle {
+	@include relative-font-size(1);
+   font-weight: 400;
+   color: $brand-key-color;
+}
+
 
 p.post-title {
   font-family: "Noto Serif KR", serif;	 
@@ -44,11 +50,10 @@ p.post-title {
 }
 
 
-p.page-subtitle {
-	@include relative-font-size(1);
-   font-weight: 400;
-   color: $brand-key-color;
+p.post-content {
+  letter-spacing: .5px;
 }
+
 
 
 .bgimg {
