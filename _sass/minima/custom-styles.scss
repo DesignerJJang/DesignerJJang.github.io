@@ -58,7 +58,7 @@ p.post-title {
 
 .page-top {
   margin: 0;
-  padding-bottom: $spacing-unit(2);
+  padding-bottom: $spacing-unit * 2;
   display: block;
   border-bottom: 3px solid $brand-key-bg-color-dark; //0312 리스트 하단 줄
 }
