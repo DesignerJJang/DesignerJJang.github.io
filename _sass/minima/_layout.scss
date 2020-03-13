@@ -59,18 +59,16 @@
     padding-top: 10px;
     text-align: center;
 
- //   > svg path {
-//		fill: $black;
-  // 				}
-	      > svg line {
-			  fill: $black;
+    > svg path {
+		fill: $black;
    				}
+
 	  
-//	&:hover {
-//		> svg path {
-//		fill: $brand-key-bg-color-dark;
- //  				}
-//	  		}
+	&:hover {
+		> svg path {
+		fill: $brand-key-bg-color-dark;
+   				}
+	  		}
   }
 
   label[for="nav-trigger"] {
