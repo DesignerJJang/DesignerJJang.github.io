@@ -16,8 +16,19 @@ p.home-title {
 		
 }
 	
+p.page-title { //페이지 타이틀
+  @include relative-font-size(2.625);		
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: -1px;
+  line-height: 1.15;
+  font-weight: 300;
 
+  @media screen and (min-width: $on-large) {
+    @include relative-font-size(2.625);
+  }
 	
+}
+
 
 p.page-subtitle {
 	@include relative-font-size(1);
