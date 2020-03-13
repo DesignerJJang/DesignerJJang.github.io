@@ -36,15 +36,11 @@ layout: default
       <li>
 		<div class="post-title_has_image">  
 
-		
-		<a href="{{ post.url | relative_url }}" class="post-title_has_image">{{ post.title | escape }}</a>
-			
-			
+
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h4>
-        <!--  <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>-->
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }} </a>
         </h4>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
