@@ -40,15 +40,16 @@
   position: absolute;
   top: 9px;
   right: $spacing-unit / 2;
-
   background-color: $white;
 //border: 1px solid $black;
   border-radius: 3px;
   text-align: right;
 
-	
+
   .nav-trigger {
       display: none;
+	  
+	  
   }
 
   .menu-icon {
@@ -89,6 +90,19 @@
   input:checked ~ .trigger {
     display: block;
     padding-bottom: 5px;
+	  
+	  
+position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 100vw;
+	height: 100%;
+  background-color: $white;
+  text-align: center;
+	  
+	  
+	  
+	  
   }
 
 	
