@@ -102,18 +102,19 @@
     &:not(:last-child) {
       margin-right: 0;
     }
-	  
-	     &:hover {
-    color: $brand-key-bg-color-dark;
-	text-decoration: none;
-	}
-		
-		&:active {
+
+		&:checked {
+	color: $orange;
 	border-bottom: 2px solid $orange;
 		}
 		
+			  
+	     &:hover {
+    color: $orange;
+	text-decoration: none;
+	}
 		
-		
+			
 	  
     margin-left: 20px;
   }
