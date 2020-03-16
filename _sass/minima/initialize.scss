@@ -6,7 +6,7 @@
 //$base-font-family: 'Noto Sans KR', sans-serif !default;
 //$base-font-family: 'Noto Serif KR', serif;
 
-$base-font-family: "Noto Sans KR", "Noto Serif KR", sans-serif !default;
+$base-font-family: "Noto Sans KR", "Noto Serif KR", "Dosis" sans-serif !default;
 
 
 //$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif !default;
@@ -58,3 +58,5 @@ $on-large:         $on-laptop !default;
 
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700|Noto+Serif+KR:200,300,400,500,600&display=swap&subset=korean');
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;600&display=swap');
