@@ -64,7 +64,6 @@ ul {
 
 
 
-
 hr { //줄
   margin-top: $spacing-unit / 2;
   margin-bottom: $spacing-unit / 4;
@@ -111,7 +110,6 @@ figcaption {
 ul, ol {
   margin-left: $spacing-unit;
 	
-
 }
 
 li {
@@ -121,6 +119,16 @@ li {
     margin-bottom: 10px;
   }
 }
+
+
+ul {
+	
+  > li {
+    margin-bottom: 0px;
+  }
+}
+
+
 
 
 
@@ -145,6 +153,9 @@ a {
     color: #d73444;
     text-decoration: none;
   }
+	
+	
+	
 	
 
   .social-media-list

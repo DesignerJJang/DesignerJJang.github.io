@@ -42,7 +42,7 @@
   right: $spacing-unit / 2;
 
   background-color: $white;
-  border: 1px solid $black;
+//border: 1px solid $black;
   border-radius: 3px;
   text-align: right;
 
@@ -102,17 +102,18 @@
     &:not(:last-child) {
       margin-right: 0;
     }
-
-		&:checked {
-	color: $orange;
-	border-bottom: 2px solid $orange;
-		}
 		
 			  
 	     &:hover {
     color: $orange;
 	text-decoration: none;
 	}
+		
+		
+		&:checked {
+	color: $orange;
+	border-bottom: 2px solid $orange;
+		}
 		
 			
 	  
