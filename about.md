@@ -1,7 +1,7 @@
 ---
 layout: about
-title: About
-permalink: /about/
+title: ABOUT
+permalink: /ABOUT/
 subtitle: 이런 것을 좋아하고 이런 일을 합니다 
 ---
 <br><br><br><br><br>
