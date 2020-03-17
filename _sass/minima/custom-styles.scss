@@ -2,6 +2,7 @@
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
 
+
 .home {
   max-width: calc(#{$content-width} - (#{$spacing-unit}));
   margin: 0 auto;
@@ -106,6 +107,7 @@ p.post-title {
 .full-page-content {
   padding: 0;
   flex: 1 0 auto;
+  background-color: $green;
 }
 
 

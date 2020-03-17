@@ -3,10 +3,10 @@
  */
 .site-header {
   //border-top: 5px solid $brand-key-bg-color;
-  border-bottom: 3px solid $black;
+  //border-bottom: 3px solid $black;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
-
+ background-color: $green;
   // Positioning context for the mobile navigation icon
   position: relative;
 }
@@ -18,7 +18,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-	color: $black;
+	color: $beige;
 	text-decoration: none;
 
 		
@@ -27,12 +27,8 @@
     padding-right: 45px;
   }
 
-  /*&:visited {
-    color: $text-color;
-  }*/
-	
+
   &:hover {
-    color: $black;
     text-decoration: none;
 	}
 }
@@ -41,7 +37,7 @@
   position: absolute;
   top: 9px;
   right: $spacing-unit / 2;
-  background-color: $white;
+//background-color: $white;
 //border: 1px solid $black;
   border-radius: 3px;
   text-align: right;
@@ -61,13 +57,13 @@
     text-align: center;
 
     > svg path {
-		fill: $black;
+		fill: $beige;
    				}
 
 	  
 	&:hover {
 		> svg path {
-		fill: $brand-key-bg-color-dark;
+		fill: $orange;
    				}
 	  		}
   }
@@ -109,7 +105,7 @@
 
 	
 	.page-link {
-	color: $black;
+	color: $beige;
     line-height: $base-line-height;
     display: block;
     padding: 5px 10px;
@@ -177,7 +173,7 @@
   //border-top: 1px solid $brand-color-light;
   padding-top: $spacing-unit / 2;
 	padding-bottom: $spacing-unit / 2;
-  background-color: $brand-key-bg-color-dark;
+  background-color: $navy;
 }
 
 .footer-heading {
