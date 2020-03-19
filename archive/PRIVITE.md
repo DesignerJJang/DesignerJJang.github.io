@@ -1,8 +1,8 @@
 ---
 
-layout: category
+layout: 
 
-title: 사생활
+title: 
 
 subtitle: 지극히 개인적인 글
 ---
