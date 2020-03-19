@@ -4,5 +4,5 @@ layout: category
 
 title: 블로그
 
-subtitle: 사생활이 아닌 것
+subtitle: 이런 저런 글
 ---
