@@ -32,10 +32,12 @@ p.home-title {
 }
 	
 p.page-title { //페이지 타이틀
-  @include relative-font-size(2.625);		
+  @include relative-font-size(2);		
   font-family: "Noto Serif KR", serif;
   letter-spacing: -1px;
   line-height: 1.15;
+	text-align: center;
+	font-color: $navy;
 
   @media screen and (min-width: $on-large) {
     @include relative-font-size(2.625);
@@ -47,7 +49,7 @@ p.page-title { //페이지 타이틀
 p.page-subtitle {
 	@include relative-font-size(1);
    font-weight: 400;
-   color: $green;
+   color: $white;
 }
 
 
@@ -73,8 +75,10 @@ p.post-title {
 
 .page-top {
   margin: 0;
+  padding-top: $spacing-unit;
   padding-bottom: $spacing-unit * 2;
   display: block;
+	background-color: $green;
   //border-bottom: 3px solid $brand-key-bg-color-dark; //0312 리스트 하단 줄
 }
 

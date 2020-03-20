@@ -3,19 +3,21 @@ layout: default
 ---
 <div class="page-content">
 	
-<div class="wrapper">
+
 <div class="home">
 	<div class="page-top">
 		
   {%- if page.title -%}
    	<p class="page-title">{{ page.title }}</p>
-<!--	<h1 class="post-title">{{ page.title }}</h1> -->
   {%- endif -%}
+		
 	  {%- if page.subtitle -%}
     <p class="page-subtitle">{{ page.subtitle }}</p>
 	  {%- endif -%}
      </div>
-  {{ content }}
+ 
+	<div class="wrapper">
+	{{ content }}
 
 
   {% if site.paginate %}
