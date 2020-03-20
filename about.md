@@ -1,8 +1,8 @@
 ---
 layout: about
-title: 나는
+title: 소개
 permalink: /ABOUT/
-subtitle: 이런 것을 좋아하고 이런 일을 합니다 
+subtitle: 이런 사람 
 ---
 <br><br><br><br><br>
 

@@ -4,5 +4,5 @@ layout: category
 
 title: 블로그
 
-subtitle: 이런 저런 글
+subtitle: 여러가지 기록하고 싶은 것들
 ---
