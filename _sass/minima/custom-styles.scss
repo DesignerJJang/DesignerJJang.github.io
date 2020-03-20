@@ -17,7 +17,7 @@
 .home {
   margin: 0 auto;
   @extend %clearfix;
-
+ margin-top: $spacing-unit * 2;
 
   @media screen and (min-width: $on-large) {
    max-width: calc(#{$content-width});
