@@ -150,6 +150,7 @@ html,
   margin-left: auto;
   padding-right: 0;
   padding-left: 0;
+padding-bottom: $spacing-unit * 2;
   @extend %clearfix;
 
   @media screen and (min-width: $on-large) {
