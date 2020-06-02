@@ -1,6 +1,6 @@
 ---
 layout: about
-title: 소개
+title: ABOUT
 permalink: /ABOUT/
 subtitle: 이런 사람 
 ---
